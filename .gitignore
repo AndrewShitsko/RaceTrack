@@ -1,0 +1,4 @@
+build/
+.idea/libraries/
+.idea/artifacts/
+grails-app/conf/application.yml
