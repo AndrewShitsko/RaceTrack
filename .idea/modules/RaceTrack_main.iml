@@ -184,5 +184,6 @@
     <orderEntry type="library" name="Gradle: com.goldmansachs:gs-collections-api:5.1.0" level="project" />
     <orderEntry type="library" name="Gradle: net.minidev:asm:1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: asm:asm:3.3.1" level="project" />
+    <orderEntry type="library" name="sqljdbc4-2.01" level="project" />
   </component>
 </module>

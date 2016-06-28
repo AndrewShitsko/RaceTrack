@@ -45,6 +45,10 @@ body {
     background-color: #abbf78;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover, a:active {
     outline: none; /* prevents outline in webkit on active links but retains it for tab focus */
 }
@@ -537,7 +541,7 @@ th:hover, tr:hover {
     text-decoration: underline;
 }
 
-.buttons .delete, .buttons .edit, .buttons .save {
+.buttons .delete, .buttons .edit, .buttons .save, .buttons .login {
     background-position: 0.7em center;
     background-repeat: no-repeat;
     text-indent: 25px;
@@ -551,7 +555,7 @@ th:hover, tr:hover {
     background-image: url(../images/skin/database_edit.png);
 }
 
-.buttons .save {
+.buttons .save, .buttons .login {
     background-image: url(../images/skin/database_save.png);
 }
 
@@ -571,4 +575,29 @@ a.skip {
 img.grails-logo {
     height:340px;
     margin-top:-10px;
+}
+
+/* RaceTrack Customization*/
+#header {
+    background: #48802c;
+    padding: 2em 1em 2em 1em;
+    margin-bottom: 1em;
+}
+a.header-main:link, a.header-main:visited {
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+}
+.header-sub {
+    color: #fff;
+    font-size: 1.25em;
+    font-style: italic;
+}
+#footer {
+    font-size: 0.75em;
+    font-style: italic;
+    padding: 2em 1em 2em 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    clear: both;
 }

@@ -211,6 +211,7 @@
     <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.1" level="project" />
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.9" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.2.16.v20160414" level="project" />
+    <orderEntry type="library" name="sqljdbc4-2.01" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="RaceTrack_main" />
 </module>
